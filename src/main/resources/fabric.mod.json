@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "beyond-the-barrier",
+	"version": "${version}",
+	"name": "beyond the barrier",
+	"description": "extend the world border to beyond 30 million",
+	"authors": [
+		"hypernebulae", "Auritanyl", "MaximumG9"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": ""
+	},
+	"license": "MIT-License",
+	"icon": "assets/beyond-the-barrier/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hypernebulae.btb.BeyondTheBarrier"
+		]
+	},
+	"mixins": [
+		"beyond-the-barrier.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
