@@ -10,7 +10,6 @@
 		"GenerationChunkHolderMixin",
 		"LevelMixin",
 		"LevelReaderMixin",
-		"MinecraftServerMixin",
 		"PerlinNoiseMixin",
 		"PlayerMixin",
 		"ServerGamePacketListenerImplMixin",
