@@ -1,0 +1,26 @@
+{
+	"required": true,
+	"package": "hypernebulae.btb.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ChunkPosMixin",
+		"DebugEntryPositionMixin",
+		"DedicatedServerPropertiesMixin",
+		"EntityMixin",
+		"ForceLoadCommandMixin",
+		"GenerationChunkHolderMixin",
+		"LevelMixin",
+		"LevelReaderMixin",
+		"PerlinNoiseMixin",
+		"PlayerMixin",
+		"ServerGamePacketListenerImplMixin",
+		"WorldBorderCommandMixin",
+		"WorldBorderMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

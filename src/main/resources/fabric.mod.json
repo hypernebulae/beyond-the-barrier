@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "beyond-the-barrier",
+	"version": "${version}",
+	"name": "beyond the barrier",
+	"description": "extend the world border to beyond 30 million",
+	"authors": [
+		"hypernebulae (for this mod)", "Auritanyl (holds the mods on her page)", "MaximumG9 (for pre-1.6)"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/beyond-the-barrier-alternate",
+		"sources": "https://modrinth.com/mod/beyond-the-barrier-alternate"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/beyond-the-barrier/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hypernebulae.btb.BeyondTheBarrier"
+		]
+	},
+	"mixins": [
+		"beyond-the-barrier.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
